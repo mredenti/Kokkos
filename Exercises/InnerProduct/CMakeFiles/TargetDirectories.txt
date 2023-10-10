@@ -1,0 +1,3 @@
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/inner_product_cpu.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/edit_cache.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/rebuild_cache.dir

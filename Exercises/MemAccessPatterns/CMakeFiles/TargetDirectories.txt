@@ -1,0 +1,3 @@
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/MemAccessPatterns/CMakeFiles/layout.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/MemAccessPatterns/CMakeFiles/edit_cache.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/MemAccessPatterns/CMakeFiles/rebuild_cache.dir

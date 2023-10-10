@@ -1,0 +1,3 @@
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/ViewsAndSpaces/CMakeFiles/views.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/ViewsAndSpaces/CMakeFiles/edit_cache.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/ViewsAndSpaces/CMakeFiles/rebuild_cache.dir

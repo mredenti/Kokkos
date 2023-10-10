@@ -1,0 +1,133 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags:  
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags: -c 
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags:  
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags: -c 
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+127
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cc251/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cc251.dir/build.make CMakeFiles/cmTC_cc251.dir/build
+gmake[1]: Entering directory '/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc251.dir/CMakeCXXCompilerABI.cpp.o
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper    -o CMakeFiles/cmTC_cc251.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+gmake[1]: *** [CMakeFiles/cmTC_cc251.dir/build.make:78: CMakeFiles/cmTC_cc251.dir/CMakeCXXCompilerABI.cpp.o] Error 127
+gmake[1]: Leaving directory '/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cc251/fast] Error 2
+
+
+
+
+Determining if the CXX compiler works failed with the following output:
+Change Dir: /leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b286c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b286c.dir/build.make CMakeFiles/cmTC_b286c.dir/build
+gmake[1]: Entering directory '/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b286c.dir/testCXXCompiler.cxx.o
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper    -o CMakeFiles/cmTC_b286c.dir/testCXXCompiler.cxx.o -c /leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+/leonardo/home/userinternal/mredenti/KOKKOS/install/kokkos_release/bin/nvcc_wrapper: line 658: nvcc: command not found
+gmake[1]: *** [CMakeFiles/cmTC_b286c.dir/build.make:78: CMakeFiles/cmTC_b286c.dir/testCXXCompiler.cxx.o] Error 127
+gmake[1]: Leaving directory '/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/InnerProduct/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b286c/fast] Error 2
+
+
+

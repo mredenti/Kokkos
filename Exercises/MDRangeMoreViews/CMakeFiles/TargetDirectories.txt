@@ -1,0 +1,3 @@
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/MDRangeMoreViews/CMakeFiles/rebuild_cache.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/MDRangeMoreViews/CMakeFiles/nested_loops.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/MDRangeMoreViews/CMakeFiles/edit_cache.dir

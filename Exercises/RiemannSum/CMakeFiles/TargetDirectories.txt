@@ -1,0 +1,3 @@
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/RiemannSum/CMakeFiles/riemann_sum_lambda.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/RiemannSum/CMakeFiles/edit_cache.dir
+/leonardo/home/userinternal/mredenti/test_kokkos/Exercises/RiemannSum/CMakeFiles/rebuild_cache.dir
