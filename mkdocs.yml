@@ -31,14 +31,7 @@ markdown_extensions:
       use_pygments: false
   - pymdownx.snippets
   - pymdownx.superfences
-  - callouts
-  - mdx_gh_links:
-      user: mkdocs
-      repo: mkdocs
   - mkdocs-click
-
-hooks:
-  - docs/hooks.py
 
 plugins:
   - search
