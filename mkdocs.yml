@@ -1,9 +1,66 @@
-site_name: CUDA vs KOKKOS (+ Kokkos Kernels) Tutorial
+
+site_name: Kokkos Heterogeneous Programming
+site_description: Project documentation with Markdown. 
+site_author: Michael Redenti
+
+repo_url: https://github.com/mredenti/Kokkos
+edit_uri: blob/master/docs/
+
+theme:
+  name: mkdocs
+  locale: en
+  analytics: {gtag: 'G-274394082'}
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - django
+
 nav:
-  - 'Home': 'index.md'
-  - 'Tutorials':
-    - 'Tutorial 00: Vector Addition': 'tutorials/vectorAdd/index.md'
-    - 'Tutorial 01: Matrix Multiplication': 'tutorials/MatMul/index.md'
-theme: readthedocs
+  - Home: index.md
+  - Tutorials:
+    - Tutorial 00: Vector Addition: 'tutorials/vectorAdd/index.md'
+    - Tutorial 01: Matrix Multiplication: 'tutorials/MatMul/index.md'
+
 markdown_extensions:
-  - markdown.extensions.extra
+  - toc:
+      permalink: 
+  - attr_list
+  - def_list
+  - tables
+  - pymdownx.highlight:
+      use_pygments: false
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - callouts
+  - mdx_gh_links:
+      user: mkdocs
+      repo: mkdocs
+  - mkdocs-click
+
+hooks:
+  - docs/hooks.py
+
+plugins:
+  - search
+  - redirects:
+      redirect_maps:
+        user-guide/plugins.md: dev-guide/plugins.md
+        user-guide/custom-themes.md: dev-guide/themes.md
+        user-guide/styling-your-docs.md: user-guide/choosing-your-theme.md
+  - autorefs
+  - literate-nav:
+      nav_file: README.md
+      implicit_index: true
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_section_style: list
+            members_order: source
+            show_root_heading: true
+            show_source: false
+            show_signature_annotations: true
+
+watch:
+  - mkdocs
+
