@@ -23,6 +23,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - toc.integrate
+    - search.suggest
   language: en
   palette:
     - scheme: default
@@ -44,6 +45,7 @@ plugins:
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
+  - search
 
 nav:
   - Home: index.md
