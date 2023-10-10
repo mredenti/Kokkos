@@ -1,0 +1,6 @@
+site_name: CUDA vs KOKKOS (+ Kokkos Kernels) Tutorial
+pages:
+  - 'Home': 'index.md'
+theme: readthedocs
+markdown_extensions:
+  - markdown.extensions.extra
