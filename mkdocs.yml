@@ -33,8 +33,6 @@ markdown_extensions:
   - pymdownx.superfences
 
 plugins:
-  - search
-  - autorefs
   - literate-nav:
       nav_file: README.md
       implicit_index: true
