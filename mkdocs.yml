@@ -51,11 +51,11 @@ plugins:
 
 nav:
   - Home: index.md
-  - Tutorial: hello.md
-  - 'Tutorial':
-    - 'Vector Addition': 'tutorials/vectorAdd'
+  - 'Tutorials':
+    - 'Tutorial 01: Say Hello to CUDA': 'tutorials/vectorAdd/index.md'
 
 markdown_extensions:
+  - markdown.extensions.extra
   - toc:
       permalink: true
   - attr_list
