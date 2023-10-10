@@ -18,8 +18,8 @@ theme:
 nav:
   - Home: index.md
   - Tutorials:
-    - Tutorial 00: Vector Addition: 'tutorials/vectorAdd/index.md'
-    - Tutorial 01: Matrix Multiplication: 'tutorials/MatMul/index.md'
+    - Tutorial 00 Vector Addition: 'tutorials/vectorAdd/index.md'
+    - Tutorial 01 Matrix Multiplication: 'tutorials/MatMul/index.md'
 
 markdown_extensions:
   - toc:
