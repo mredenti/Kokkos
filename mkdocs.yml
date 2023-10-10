@@ -25,6 +25,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - Tutorial: hello.md
   - 'Tutorial':
     - 'Vector Addition': 'tutorials/vectorAdd'
 
