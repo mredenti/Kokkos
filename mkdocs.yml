@@ -24,6 +24,8 @@ theme:
     - navigation.sections
     - toc.integrate
     - search.suggest
+    - search.highlight
+    - search.share
   language: en
   palette:
     - scheme: default
@@ -46,6 +48,7 @@ plugins:
       type: date
       enable_creation_date: true
   - search
+  - optimize
 
 nav:
   - Home: index.md
@@ -55,7 +58,7 @@ nav:
 
 markdown_extensions:
   - toc:
-      permalink: 
+      permalink: true
   - attr_list
   - def_list
   - tables
