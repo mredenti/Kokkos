@@ -1,11 +1,27 @@
-# Hello
+[![Github](https://img.shields.io/badge/sources-github-green.svg)](https://github.com/mredenti/Kokkos/)
 
-site_name: CUDA vs KOKKOS (+ Kokkos Kernels) Tutorial
-pages:
-  - `Home`: 'index.md'
-  - 'Tutorials':
-    - 'Tutorial 01: Say Hello to CUDA': 'tutorials/tutorial01/index.md'
-    - 'Tutorial 02: CUDA in Actions': 'tutorials/tutorial02/index.md'
-theme: readthedocs
-markdown_extensions:
-  - markdown.extensions.extra
+# Kokkos 
+
+This repository contains a script and documentation for learning Kokkos. 
+
+Following is a list of available tutorials and their description. 
+
+| Name                                             | Description   | Level |
+|--------------------------------------------------|---------------|-------|
+| [Tutorial 01: A basic Kokkos program](./tutorials/tutorial01/) | Introduction to heterogeneous parallel programming | beginner |
+| [Tutorial 02: Vector Addition in Kokkos](./tutorials/tutorial02/)   | Introduction to Kokkos parallel patterns | beginner | 
+| | |
+
+## Authors
+
+* **Michael Redenti** - *Initial work* 
+
+See also the list of [contributors](https://github.com/mredenti/Kokkos/graphs/contributors) who participated in this project.
+
+## Issues / Feature request
+
+You can submit bug / issues / feature request using [Tracker](https://github.com/mredenti/Kokkos/issues).
+
+## License
+
+TBD
