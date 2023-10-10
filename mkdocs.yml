@@ -31,7 +31,6 @@ markdown_extensions:
       use_pygments: false
   - pymdownx.snippets
   - pymdownx.superfences
-  - mkdocs-click
 
 plugins:
   - search
@@ -53,7 +52,4 @@ plugins:
             show_root_heading: true
             show_source: false
             show_signature_annotations: true
-
-watch:
-  - mkdocs
 
