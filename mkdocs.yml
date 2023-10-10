@@ -2,8 +2,8 @@ site_name: CUDA vs KOKKOS (+ Kokkos Kernels) Tutorial
 nav:
   - 'Home': 'index.md'
   - 'Tutorials':
-    - 'Tutorial 00: Vector Addition': 'tutorials/vectorAdd/README.md'
-    - 'Tutorial 01: Matrix Multiplication': 'tutorials/MatMul/README.md'
+    - 'Tutorial 00: Vector Addition': 'tutorials/vectorAdd/index.md'
+    - 'Tutorial 01: Matrix Multiplication': 'tutorials/MatMul/index.md'
 theme: readthedocs
 markdown_extensions:
   - markdown.extensions.extra
