@@ -25,7 +25,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - Tutorials: 'tutorials/MatMul'
 
 markdown_extensions:
   - toc:
