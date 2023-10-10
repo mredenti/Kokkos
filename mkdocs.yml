@@ -48,8 +48,6 @@ plugins:
       type: date
       enable_creation_date: true
   - search
-  - optimize:
-      concurrency: 1
 
 nav:
   - Home: index.md
