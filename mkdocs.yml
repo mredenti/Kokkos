@@ -26,7 +26,7 @@ plugins:
 nav:
   - Home: index.md
   - 'Tutorial':
-    - 'Vector Addition': 'tutorials/vectorAdd/index.md'
+    - 'Vector Addition': 'tutorials/vectorAdd'
 
 markdown_extensions:
   - toc:
