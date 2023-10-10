@@ -38,6 +38,3 @@ markdown_extensions:
   - pymdownx.superfences
   - codehilite
 
-plugins:
-  - mknotebooks
-
