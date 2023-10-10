@@ -7,13 +7,14 @@ repo_url: https://github.com/mredenti/Kokkos
 edit_uri: blob/master/docs/
 
 theme:
-  name: mkdocs
-  locale: en
-  analytics: {gtag: 'G-274394082'}
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - django
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
 
 nav:
   - Home: index.md
@@ -31,4 +32,9 @@ markdown_extensions:
       use_pygments: false
   - pymdownx.snippets
   - pymdownx.superfences
+  - codehilite
+
+plugins:
+  - mknotebooks
+    execute: false
 
