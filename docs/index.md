@@ -8,8 +8,8 @@ Following is a list of available tutorials and their description.
 
 | Name                                             | Description   | Level |
 |--------------------------------------------------|---------------|-------|
-| [Tutorial 01: A basic Kokkos program](./tutorials/tutorial01/) | Introduction to heterogeneous parallel programming | beginner |
-| [Tutorial 02: Vector Addition in Kokkos](./tutorials/tutorial02/)   | Introduction to Kokkos parallel patterns | beginner | 
+| [Tutorial 01: A basic Kokkos program](./tutorials/vectorAdd/) | Introduction to heterogeneous parallel programming | beginner |
+| [Tutorial 02: Vector Addition in Kokkos](./tutorials/MatMul/)   | Introduction to Kokkos parallel patterns | beginner | 
 | | |
 
 ## Authors
