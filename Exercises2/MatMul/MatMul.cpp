@@ -43,7 +43,8 @@ KOKKOS_INLINE_FUNCTION void MatMul<T>::operator()(const OuterLoop, const int i) 
     // Implementation of operator() here...
     for (int j = 0; j < B.extent(1); j++)
     {
-        T sum = 0;
+        T sum = 0; // automatic scalar variable created and initialised by each thread 
+        // automatic scalar variables are placed into registers 
         // compute a single entry
         for (int k = 0; k < B.extent(0); k++)
         {

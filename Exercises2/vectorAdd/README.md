@@ -1,4 +1,4 @@
-
+In this first tutorial we will be profile the performance of vector addition written in Kokkos.  
 
 ```shell
 module load cuda/11.8 gcc/11.3.0
@@ -42,8 +42,23 @@ int main() {
 
 <div markdown="1">
 
-**CUDA**
+**KOKKOS**
 
+``` C
+#include <Kokkos_core.hpp>
+
+int main(int argc, char* argv) {
+
+    Kokkos::initialize(argc, argv);
+
+
+    Kokkos::finalize();
+
+    return 0;
+}
+```
+
+**CUDA**
 ``` C
 __global__ void cuda_hello(){
     printf("Hello World from GPU!\n");

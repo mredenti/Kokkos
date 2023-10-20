@@ -6,11 +6,12 @@ HEADERS = $(wildcard $(MAKEFILE_PATH)*.hpp)
 default: build
 	echo "Start Build"
 
-CC = nvcc
-EXE = outer_loop.cux
+EXE = main.cux
 
-CFLAGS ?= -O2 -g 
-override CXXFLAGS += -I$(MAKEFILE_PATH) 
+HOST_COMPILER ?= g++
+NVCC          := $(CUDA_HOME)/bin/nvcc -ccbin $(HOST_COMPILER)
+NVCCFLAGS ?= -O2 -g 
+override NVCCFLAGS += -I$(MAKEFILE_PATH) -I$(CUDA_HOME)/samples/Common
 
 DEPFLAGS = -M
 LINK = 
@@ -22,14 +23,14 @@ LIB =
 build: $(EXE)
 
 $(EXE): $(OBJ) $(KOKKOS_LINK_DEPENDS)
-	$(CC) $(LINKFLAGS) $(CFLAGS) $(OBJ) $(LIB) -o $(EXE) 
+	$(NVCC) $(LINKFLAGS) $(NVCCFLAGS) $(OBJ) $(LIB) -o $(EXE) 
 
 clean: 
 	rm -f *.o *.cuda *.host *.x
 
 # Compilation rules
 %.o:%.cu $(HEADERS)
-	$(CC) $(CFLAGS) $(EXTRA_INC) -c $< -o $(notdir $@)
+	$(NVCC) $(NVCCFLAGS) $(EXTRA_INC) -c $< -o $(notdir $@)
 
 run:
 	OMP_PROC_BIND=spread OMP_PLACES=threads ./$(EXE)

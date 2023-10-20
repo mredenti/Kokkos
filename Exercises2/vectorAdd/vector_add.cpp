@@ -39,6 +39,8 @@ int main(int argc, char **argv)
             zh[i] = 0.0;
         });
 
+    // is there a way to assign the vector to CUDA constant memory?
+
     // initialise data on device
     Kokkos::parallel_for(
         "xdInit", N, KOKKOS_LAMBDA(const int i) {

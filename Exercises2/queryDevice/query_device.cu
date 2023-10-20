@@ -34,7 +34,9 @@ int main(int argc, char *argv[])
     fprintf(stdout, "\n\nMemory Architecture\n");
     fprintf(stdout, "Global Memory: %f [GB]\n", (double) devProp.totalGlobalMem * 1e-9f);
     //fprintf(stdout, "Global Memory: %zu [B]\n", devProp.totalGlobalMem);
+    fprintf(stdout, "(Relevanto to tiling)Shared memory/Block: %d [B]\n", devProp.sharedMemPerBlock);
     fprintf(stdout, "L2 Cache: %f [MB]\n", (double) devProp.l2CacheSize * 1e-6f);
+    fprintf(stdout, "Constant Memory: %d [B]\n", devProp.totalConstMem);
 
     fprintf(stdout, "\n\nClock frequency %f [MHz]\n", (double) devProp.clockRate * 1e-3f);
     fprintf(stdout, "Ratio of single precision performance (in floating-point operations per second) to double precision performance %d\n", devProp.singleToDoublePrecisionPerfRatio);

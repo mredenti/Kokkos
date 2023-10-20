@@ -51,8 +51,12 @@ plugins:
 
 nav:
   - Home: index.md
-  - 'Tutorials':
-    - 'Tutorial 01: Say Hello to CUDA': 'tutorials/vectorAdd/index.md'
+  - 'CUDA Tutorials':
+    - 'Tutorial 01: vector addition': 'tutorials/vectorAdd/index.md'
+  - 'KOKKOS Tutorials':
+    - 'Prerequisites 01: Templates/Template Metaprogramming': 'tutorials/vectorAdd/index.md'
+    - 'Prerequisites 02: Functors & Lambdas': 'tutorials/vectorAdd/index.md'
+    - 'Tutorial 01: vector addition': 'tutorials/vectorAdd/index.md'
 
 markdown_extensions:
   - markdown.extensions.extra

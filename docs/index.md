@@ -10,7 +10,7 @@ Following is a list of available tutorials and their description.
 |--------------------------------------------------|---------------|-------|
 | [Tutorial 01: A basic Kokkos program](./tutorials/vectorAdd/index.md) | Introduction to heterogeneous parallel programming | beginner |
 | [Tutorial 02: Vector Addition in Kokkos](./tutorials/MatMul/index.md)   | Introduction to Kokkos parallel patterns | beginner | 
-| | |
+| [Tutorial 03: Path Tracing](./tutorials/MatMul/index.md)   | Applications | fun | 
 
 ## Authors
 

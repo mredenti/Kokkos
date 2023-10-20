@@ -54,3 +54,5 @@ In order to use Kokkos an initialization call is required. That call is responsi
 
 
 A functor is one way to define the body of a parallel loop. It is a class or struct1 with a public operator() instance method. That method’s arguments depend on both which parallel operation you want to execute (for, reduce, or scan), and on the loop’s execution policy (e.g., range or team).
+
+## Signature of the performance improvements
