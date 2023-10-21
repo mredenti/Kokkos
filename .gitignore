@@ -19,6 +19,11 @@
 *.a
 *.lib
 
+# Kokkos Headers
+KokkosCore*.hpp
+KokkosCore*.h
+desul/
+
 # Executables
 *.exe
 *.out
