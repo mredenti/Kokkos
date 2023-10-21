@@ -24,6 +24,12 @@
 *.out
 *.app
 
+*.omptx 
+*.cudax 
+*.hostx 
+*.openmpx 
+*.hipx
+
 *.i
 *.ii
 *.gpu
