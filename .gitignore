@@ -35,6 +35,8 @@ desul/
 *.openmpx 
 *.hipx
 
+*.cux
+
 *.i
 *.ii
 *.gpu
@@ -85,6 +87,9 @@ venv.bak/
 *.err
 *.out
 
+# Nsight-Systems Reports 
+*.nsys-rep 
+*.sqlite
 
 # Misc
 .DS_Store
