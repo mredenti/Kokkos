@@ -1,0 +1,36 @@
+include ../../Makefile.inc
+
+HEADER = MatMul.hpp
+
+default: build
+	echo "Start Build"
+
+EXE = matMul.${BACKEND}x
+
+CXXFLAGS = -O3 -g
+
+#CXXFLAGS += ${OFFLOAD_FLAGS}
+#CXXFLAGS += -foffload-lto --save-temps
+
+LINK = ${CXX} ${CXXFLAGS}
+
+DEPFLAGS = -M
+
+OBJ = $(notdir $(SRC:.cpp=.o))
+LIB =
+
+include $(KOKKOS_PATH)/Makefile.kokkos
+
+build: $(EXE)
+
+$(EXE): $(OBJ) $(KOKKOS_LINK_DEPENDS)
+	$(LINK) $(KOKKOS_LDFLAGS) $(EXTRA_PATH) $(OBJ) $(KOKKOS_LIBS) $(LIB) -o $(EXE)
+
+clean: kokkos-clean
+	rm -f *.o *.omptx *.cudax *.hostx *.openmpx *.hipx
+
+# Compilation rules
+#make KOKKOS_PATH=$KOKKOS_PATH BACKEND=cuda KOKKOS_ARCH=Volta70 arch=V100 
+
+%.o:%.cpp $(KOKKOS_CPP_DEPENDS) $(HEADER)
+	$(CXX) $(KOKKOS_CPPFLAGS) $(KOKKOS_CXXFLAGS) $(CXXFLAGS) $(EXTRA_INC) -c $<
