@@ -84,3 +84,4 @@ venv.bak/
 # Misc
 .DS_Store
 /Debug/
+*.tmp
