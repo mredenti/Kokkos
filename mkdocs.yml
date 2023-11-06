@@ -48,6 +48,7 @@ plugins:
       type: date
       enable_creation_date: true
   - search
+  - mkdocs-material-extensions
 
 nav:
   - Home: index.md

@@ -15,8 +15,6 @@ OMP_PROC_BIND=spread OMP_PLACES=threads ./vector_add.x
 
 This tutorial is an introduction for writing your first C++-Kokkos program and offload computation to a GPU. 
 
-In CUDA programming, both CPUs and GPUs are used for computing. 
-
 ## A quick comparison between CUDA and C
 
 Following table compares a hello world program in C and CUDA side-by-side. 
@@ -51,6 +49,31 @@ int main() {
     return 0;
 }
 ```
+
+=== "CUDA"
+    ```cuda
+    // CUDA code here
+    __global__ void MyKernel(int* array) {
+        // ...
+    }
+    ```
+
+=== "Kokkos"
+    ```cpp
+    // Kokkos code here
+    KOKKOS_FUNCTION void operator() (const int i) const {
+        // ...
+    }
+    ```
+
+=== "Other"
+    ```cpp
+    // Other code here
+    void myFunction() {
+        // ...
+    }
+    ```
+
 
 **KOKKOS**
 
