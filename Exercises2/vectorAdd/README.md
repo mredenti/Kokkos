@@ -9,15 +9,13 @@ OMP_PROC_BIND=spread OMP_PLACES=threads ./vector_add.x
 ```
 
 
-# Tutorial 01: Say Hello to CUDA
+# Tutorial 01: Vector Addition
 
 ## Introduction 
 
-This tutorial is an introduction for writing your first CUDA C program and offload computation to a GPU. We will use CUDA runtime API throughout this tutorial. 
+This tutorial is an introduction for writing your first C++-Kokkos program and offload computation to a GPU. 
 
-CUDA is a platform and programming model for CUDA-enabled GPUs. The platform exposes GPUs for general purpose computing. CUDA provides C/C++ language extension and APIs for programming and managing GPUs.
-
-In CUDA programming, both CPUs and GPUs are used for computing. Typically, we refer to CPU and GPU system as *host* and *device*, respectively. CPUs and GPUs are separated platforms with their own memory space. Typically, we run serial workload on CPU and offload parallel computation to GPUs.  
+In CUDA programming, both CPUs and GPUs are used for computing. 
 
 ## A quick comparison between CUDA and C
 
@@ -42,6 +40,18 @@ int main() {
 
 <div markdown="1">
 
+**CUDA**
+``` C
+__global__ void cuda_hello(){
+    printf("Hello World from GPU!\n");
+}
+
+int main() {
+    cuda_hello<<<1,1>>>(); 
+    return 0;
+}
+```
+
 **KOKKOS**
 
 ``` C
@@ -54,18 +64,6 @@ int main(int argc, char* argv) {
 
     Kokkos::finalize();
 
-    return 0;
-}
-```
-
-**CUDA**
-``` C
-__global__ void cuda_hello(){
-    printf("Hello World from GPU!\n");
-}
-
-int main() {
-    cuda_hello<<<1,1>>>(); 
     return 0;
 }
 ```
