@@ -26,6 +26,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.tabs.link
   language: en
   palette:
     - scheme: default
@@ -82,6 +83,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
 
 copyright: |
   &copy; 2023 <a href="https://github.com/mredenti"  target="_blank" rel="noopener">Michael Redenti</a>
