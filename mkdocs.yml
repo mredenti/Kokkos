@@ -70,7 +70,6 @@ markdown_extensions:
   - pymdownx.highlight:
       use_pygments: false
   - pymdownx.snippets
-  - pymdownx.superfences
   - codehilite
   - pymdownx.arithmatex:
       generic: true
@@ -84,6 +83,7 @@ markdown_extensions:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.tabbed:
+      alternate_style: true
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
