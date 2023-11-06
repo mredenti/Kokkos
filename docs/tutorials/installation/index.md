@@ -78,3 +78,14 @@ Below is a short list of some useful commands. For the complete list of Spack co
 |--------------------------------|---------------------------------------|
 | `spack env create -d .`        | To create a new environment in the current folder |
 | `spack env activate -p .`      | To activate an environment in the current folder |
+
+
+???+ warning
+    STILL WORK IN PROGRESS: no configuration files and job submission script yet!
+
+
+???+ tip
+        To avoid running the same command every time you open a new terminal, you might want to add this line to your ~/.bashrc file:
+        ```
+        . /<FULLPATH-TO-SPACK-ROOT>/spack/share/spack/setup-env.sh
+        ```
