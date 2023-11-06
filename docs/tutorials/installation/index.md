@@ -69,3 +69,12 @@ Kokkos::Profiling::popRegion();
     To know more about Spack and COMPSs:    
     [Spack documentation](https://spack.readthedocs.io/en/latest/)   
     [COMPSs documentation](https://compss-doc.readthedocs.io/en/stable/)
+
+
+## Useful spack commands
+Below is a short list of some useful commands. For the complete list of Spack commands check this [link](https://spack.readthedocs.io/en/latest/command_index.html).      
+
+| Command                        |      Comment      |
+|--------------------------------|---------------------------------------|
+| `spack env create -d .`        | To create a new environment in the current folder |
+| `spack env activate -p .`      | To activate an environment in the current folder |
