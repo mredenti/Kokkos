@@ -1,6 +1,6 @@
 # Building Kokkos inline 
 
-For the tutorial we will building Kokkos inline with raw Makefiles. This allows us to easily swap between different backends and play around with different configurations. 
+For the tutorial, we will compile our Kokkos programs via a Makefile while **building Kokkos inline**. This allows us to easily swap between different backends and play around with various configurations. So, let us clone the Kokkos repository to the `$WORK` directory on Leonardo.
 
 
 **Define Kokkos release version (tag) to clone** 
