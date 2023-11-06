@@ -3,17 +3,17 @@
 For the tutorial, we will compile our Kokkos programs via a Makefile while **building Kokkos inline**. This allows us to easily swap between different backends and play around with various configurations. So, let us clone the Kokkos repository to the `$WORK` directory on Leonardo.
 
 
-**Define Kokkos release version (tag) to clone** 
+**Define Kokkos release version (tag) to clone...** 
 ```shell
 export KOKKOS_TAG=4.1.00
 ```
 
-**Clone Kokkos repository**
+**...clone the Kokkos repository...**
 ```shell
 git clone --branch $KOKKOS_TAG https://github.com/kokkos/kokkos.git kokkos-$KOKKOS_TAG 
 ```
 
-**Export path to the Kokkos folder**
+**...export path to the Kokkos folder.**
 ```shell
 export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
 ```
