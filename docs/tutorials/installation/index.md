@@ -22,6 +22,9 @@ export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
     To avoid having to export this environment variable every time you open a new shell, you might want to add this line to your `~/.bashrc` file
 
 
+We can now turn to our first exercise [Tutorial 01: Vector Addition](./tutorials/vectorAdd/index.md)
+
+
 ???+ info
     You may consult the documentation to learn about:    
         [Building Kokkos as an intalled package](https://kokkos.github.io/kokkos-core-wiki/building.html)   
