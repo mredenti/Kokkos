@@ -2,12 +2,13 @@
 
 # Kokkos 
 
-This repository contains a script and documentation for learning Kokkos. 
+This repository contains the exercises for the School on GPU computing to be hosted by Cineca on ...data.... 
 
-Following is a list of available tutorials and their description. 
+Following is a list of exercises and their description to workon during the lecture. 
 
 | Name                                             | Description   | Level |
 |--------------------------------------------------|---------------|-------|
+| [Tutorial 00: Installing Kokkos](./tutorials/installation/index.md) | Kokkos build system | beginner |
 | [Tutorial 01: A basic Kokkos program](./tutorials/vectorAdd/index.md) | Introduction to heterogeneous parallel programming | beginner |
 | [Tutorial 02: Vector Addition in Kokkos](./tutorials/MatMul/index.md)   | Introduction to Kokkos parallel patterns | beginner | 
 | [Tutorial 03: Path Tracing](./tutorials/MatMul/index.md)   | Applications | fun | 
