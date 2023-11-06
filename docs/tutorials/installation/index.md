@@ -18,7 +18,7 @@ git clone --branch $KOKKOS_TAG https://github.com/kokkos/kokkos.git kokkos-$KOKK
 export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
 ```
 
-???+ tip
+??? tip
     To avoid having to export this environment variable every time you open a new shell, you might want to add this line to your `~/.bashrc` file
 
 !!! success " "
