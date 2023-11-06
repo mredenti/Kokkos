@@ -25,7 +25,7 @@ export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
 We can now turn to our first exercise [Tutorial 01: Vector Addition](../vectorAdd/index.md)
 
 
-???+ info
+???+ info "Installing Kokkos as shared library/package"
     You may consult the documentation to learn about:    
         [Building Kokkos as an intalled package](https://kokkos.github.io/kokkos-core-wiki/building.html)   
         [Building Kokkos via Spack package manager](https://kokkos.github.io/kokkos-core-wiki/building.html#:~:text=a%20single%20process.-,Spack,-%23)
