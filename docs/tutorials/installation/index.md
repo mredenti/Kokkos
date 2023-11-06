@@ -1,11 +1,11 @@
-# Installing Kokkos
+# Building Kokkos inline 
 
-There are ... ways to build and install Kokkos
-- cmake 
-- .. 
-- inline with Make
+For the tutorial we will building Kokkos inline with raw Makefiles. This allows us to easily swap between different backends and play around with different configurations. 
 
-For the tutorial we will employ the latter mode as this will allow us to play around with setting different defaults backends (mm will see)
+???+ info
+    You may consult the documentation to learn about:    
+    [Building Kokkos as an intalled package](https://kokkos.github.io/kokkos-core-wiki/building.html)   
+    [Building Kokkos via Spack package manager](https://kokkos.github.io/kokkos-core-wiki/building.html#:~:text=a%20single%20process.-,Spack,-%23)
 
 
 **Clone Kokkos repository**
@@ -65,10 +65,6 @@ Kokkos::Profiling::popRegion();
 
 ## Building Kokkos Kernels
 
-???+ info
-    To know more about Spack and COMPSs:    
-    [Spack documentation](https://spack.readthedocs.io/en/latest/)   
-    [COMPSs documentation](https://compss-doc.readthedocs.io/en/stable/)
 
 
 ## Useful spack commands
