@@ -19,7 +19,7 @@ export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
 ```
 
 ???+ tip
-        To avoid having to export this environment variable every time you open a new shell, you might want to add this line to your `~/.bashrc` file
+    To avoid having to export this environment variable every time you open a new shell, you might want to add this line to your `~/.bashrc` file
 
 
 ???+ info
