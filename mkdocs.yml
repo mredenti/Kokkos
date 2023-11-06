@@ -51,8 +51,9 @@ plugins:
 
 nav:
   - Home: index.md
-  - 'CUDA Tutorials':
-    - 'Tutorial 01: vector addition': 'tutorials/vectorAdd/index.md'
+  - 'Tutorial GPU Computing School':
+    - 'Tutorial 01: Installing Kokkos': 'tutorials/vectorAdd/index.md'
+    - 'Tutorial 02: vector addition': 'tutorials/vectorAdd/index.md'
   - 'KOKKOS Tutorials':
     - 'Prerequisites 01: Templates/Template Metaprogramming': 'tutorials/vectorAdd/index.md'
     - 'Prerequisites 02: Functors & Lambdas': 'tutorials/vectorAdd/index.md'
@@ -73,7 +74,6 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
-  - mdx_math
   - admonition
   - pymdownx.details
   - pymdownx.superfences
