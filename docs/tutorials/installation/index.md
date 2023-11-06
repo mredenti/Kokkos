@@ -29,6 +29,36 @@ We can now turn to our first exercise [Tutorial 01: Vector Addition](../vectorAd
     You may consult the documentation to learn about:    
         [Building Kokkos as an intalled package](https://kokkos.github.io/kokkos-core-wiki/building.html)   
         [Building Kokkos via Spack package manager](https://kokkos.github.io/kokkos-core-wiki/building.html#:~:text=a%20single%20process.-,Spack,-%23)
+        
+???+ note
+    g 
+
+???+ abstract
+    g 
+
+???+ note
+    g 
+
+???+ success
+    g 
+
+???+ question
+    g 
+
+???+ failure
+    g 
+
+???+ danger
+    g 
+
+???+ bug
+    g 
+
+???+ example
+    g    
+
+???+ quote
+    g 
 
 <details>
   <summary>Click me</summary>
