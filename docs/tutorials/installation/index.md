@@ -89,7 +89,7 @@ Below is a short list of some useful commands. For the complete list of Spack co
 
 
 ???+ tip
-        To avoid running the same command every time you open a new terminal, you might want to add this line to your ~/.bashrc file:
-        ```
-        . /<FULLPATH-TO-SPACK-ROOT>/spack/share/spack/setup-env.sh
-        ```
+    To avoid running the same command every time you open a new terminal, you might want to add this line to your ~/.bashrc file:
+    ```
+    . /<FULLPATH-TO-SPACK-ROOT>/spack/share/spack/setup-env.sh
+    ```
