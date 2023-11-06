@@ -52,7 +52,7 @@ plugins:
 nav:
   - Home: index.md
   - 'Tutorial GPU Computing School':
-    - 'Tutorial 01: Installing Kokkos': 'tutorials/vectorAdd/index.md'
+    - 'Tutorial 01: Installing Kokkos': 'tutorials/installation/index.md'
     - 'Tutorial 02: vector addition': 'tutorials/vectorAdd/index.md'
   - 'KOKKOS Tutorials':
     - 'Prerequisites 01: Templates/Template Metaprogramming': 'tutorials/vectorAdd/index.md'
