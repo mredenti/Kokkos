@@ -50,7 +50,7 @@ int main() {
 }
 ```
 
-=== "CUDA"
+???+ tab "CUDA"
     ```cuda
     // CUDA code here
     __global__ void MyKernel(int* array) {
@@ -58,7 +58,7 @@ int main() {
     }
     ```
 
-=== "Kokkos"
+???+ tab "Kokkos"
     ```cpp
     // Kokkos code here
     KOKKOS_FUNCTION void operator() (const int i) const {
@@ -66,13 +66,14 @@ int main() {
     }
     ```
 
-=== "Other"
+???+ tab "Other"
     ```cpp
     // Other code here
     void myFunction() {
         // ...
     }
     ```
+
 
 
 **KOKKOS**
