@@ -21,8 +21,8 @@ export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
 ???+ tip
     To avoid having to export this environment variable every time you open a new shell, you might want to add this line to your `~/.bashrc` file
 
-
-We can now turn to our first exercise [Tutorial 01: Vector Addition](../vectorAdd/index.md)
+!!! success "  "
+    Great! We can now turn to executing our first Kokkos program [Tutorial 01: Vector Addition](../vectorAdd/index.md)
 
 
 ???+ info "Installing Kokkos as shared library/package"
