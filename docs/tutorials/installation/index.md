@@ -7,20 +7,27 @@ For the tutorial we will building Kokkos inline with raw Makefiles. This allows 
     [Building Kokkos as an intalled package](https://kokkos.github.io/kokkos-core-wiki/building.html)   
     [Building Kokkos via Spack package manager](https://kokkos.github.io/kokkos-core-wiki/building.html#:~:text=a%20single%20process.-,Spack,-%23)
 
+The steps to follow are:
 
-**Clone Kokkos repository**
-Define Kokkos version/tag to clone 
+
+
+**Define Kokkos release version (tag) to clone** 
 ```shell
 export KOKKOS_TAG=4.1.00
 ```
-Download repository
+
+**Clone Kokkos repository**
 ```shell
 git clone --branch $KOKKOS_TAG https://github.com/kokkos/kokkos.git kokkos-$KOKKOS_TAG 
 ```
-and export the path to the Kokkos folder (you might want to source the full path such that you can activate the full path for every session)
+
+**Export path to the Kokkos folder**
 ```shell
 export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
 ```
+
+???+ tip
+        To avoid having to export this environment variable every time you open a new shell, you might want to add this line to your `~/.bashrc` file
 
 <details>
   <summary>Click me</summary>
