@@ -1,5 +1,5 @@
-
-site_name: Kokkos Heterogeneous Programming
+# Project Information
+site_name: Heterogeneous Programming With Kokkos
 site_description: Project documentation with Markdown. 
 site_author: Michael Redenti
 
@@ -73,6 +73,8 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - footnotes
+  - mdx_math
+  - admonition
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
