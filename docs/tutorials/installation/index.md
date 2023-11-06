@@ -64,3 +64,8 @@ Kokkos::Profiling::popRegion();
 </details>
 
 ## Building Kokkos Kernels
+
+???+ info
+    To know more about Spack and COMPSs:    
+    [Spack documentation](https://spack.readthedocs.io/en/latest/)   
+    [COMPSs documentation](https://compss-doc.readthedocs.io/en/stable/)
