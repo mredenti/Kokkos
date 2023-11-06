@@ -50,29 +50,47 @@ int main() {
 }
 ```
 
-???+ tab "CUDA"
-    ```cuda
-    // CUDA code here
-    __global__ void MyKernel(int* array) {
-        // ...
+=== "C"
+
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
     }
     ```
 
-???+ tab "Kokkos"
-    ```cpp
-    // Kokkos code here
-    KOKKOS_FUNCTION void operator() (const int i) const {
-        // ...
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
     }
     ```
 
-???+ tab "Other"
-    ```cpp
-    // Other code here
-    void myFunction() {
-        // ...
-    }
-    ```
+!!! example
+
+    === "Unordered List"
+
+        ``` markdown
+        * Sed sagittis eleifend rutrum
+        * Donec vitae suscipit est
+        * Nulla tempor lobortis orci
+        ```
+
+    === "Ordered List"
+
+        ``` markdown
+        1. Sed sagittis eleifend rutrum
+        2. Donec vitae suscipit est
+        3. Nulla tempor lobortis orci
+        ```
+
+
 
 
 
