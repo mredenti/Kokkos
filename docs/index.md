@@ -8,10 +8,11 @@ Following is a list of exercises and their description to workon during the lect
 
 | Name                                             | Description   | Level |
 |--------------------------------------------------|---------------|-------|
-| [Tutorial 00: Installing Kokkos](./tutorials/installation/index.md) | Kokkos build system | beginner |
-| [Tutorial 01: A basic Kokkos program](./tutorials/vectorAdd/index.md) | Introduction to heterogeneous parallel programming | beginner |
-| [Tutorial 02: Vector Addition in Kokkos](./tutorials/MatMul/index.md)   | Introduction to Kokkos parallel patterns | beginner | 
-| [Tutorial 03: Path Tracing](./tutorials/MatMul/index.md)   | Applications | fun | 
+| [Setup: Installing Kokkos and Tutorial Environment](./tutorials/installation/index.md) | This initial setup exercise guides you through installing the Kokkos library and setting up the tutorial environment. Essential for getting started with Kokkos programming, it ensures all necessary tools and resources are correctly installed and configured on your system. | |
+| [Exercise 0: Vector Addition](./tutorials/vectorAdd/index.md) | Introduction to heterogeneous parallel programming | beginner |
+| [Exercise 1: Matrix-Vector Multiplication](./tutorials/MatMul/index.md)   | Introduction to Kokkos parallel patterns | beginner | 
+| [Exercise 2: Matrix-Matrix Multiplication](./tutorials/MatMul/index.md)   | Introduction to Kokkos parallel patterns | Intermediate | 
+| [Porting Heat Conduction Mini-App to Kokkos](./tutorials/MatMul/index.md)   | Introduction to Kokkos parallel patterns | Advanced | 
 
 ## Authors
 
