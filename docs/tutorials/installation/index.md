@@ -28,14 +28,25 @@ For the tutorial, we will compile our Kokkos programs via a Makefile while **bui
     ??? tip
         To avoid having to export this environment variable every time you open a new shell, you might want to add the above line to your `~/.bashrc` file
 
-!!! success "Next"
-    Great! We can now turn to executing our first Kokkos program [Tutorial 01: Vector Addition](../vectorAdd/index.md)
-
-
-??? info "Installing Kokkos as shared library/package"
+    ??? info "Installing Kokkos as shared library/package"
     You may consult the documentation to learn about:    
         [Building Kokkos as an intalled package](https://kokkos.github.io/kokkos-core-wiki/building.html)   
         [Building Kokkos via Spack package manager](https://kokkos.github.io/kokkos-core-wiki/building.html#:~:text=a%20single%20process.-,Spack,-%23)
+    but for the tutorial we will compile Kokkos programs inline via a Makefile
+
+
+???+ note "Instructions: Cloning the tutorial/exercises repository"
+
+    No need as they are within the SYCL repository
+
+    **Change into your work area on Leonardo...**
+    ```shell
+    cd $WORK
+    ```
+
+!!! success "Next"
+    Great! We can now turn to executing our first Kokkos program [Tutorial 01: Vector Addition](../vectorAdd/index.md)
+
         
 ???+ note
     g 
