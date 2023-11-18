@@ -1,25 +1,32 @@
 # Building Kokkos inline 
 
-For the tutorial, we will compile our Kokkos programs via a Makefile while **building Kokkos inline**. This allows us to easily swap between different backends and play around with various configurations. So, let us clone the Kokkos repository to the `$WORK` directory on Leonardo.
+For the tutorial, we will compile our Kokkos programs via a Makefile while **building Kokkos inline**. This allows us to easily swap between different default execution spaces and memory spaces.
 
 
-**Define Kokkos release version (tag) to clone...** 
-```shell
-export KOKKOS_TAG=4.1.00
-```
+???+ note "Instructions: Cloning Kokkos Core repository"
 
-**...clone the Kokkos repository...**
-```shell
-git clone --branch $KOKKOS_TAG https://github.com/kokkos/kokkos.git kokkos-$KOKKOS_TAG 
-```
+    **Change into your work area on Leonardo...**
+    ```shell
+    cd $WORK
+    ```
 
-**...export path to the Kokkos folder.**
-```shell
-export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
-```
+    **...define Kokkos release version/tag to clone...** 
+    ```shell
+    export KOKKOS_TAG=4.1.00
+    ```
 
-??? tip
-    To avoid having to export this environment variable every time you open a new shell, you might want to add this line to your `~/.bashrc` file
+    **...clone the Kokkos repository...**
+    ```shell
+    git clone --branch $KOKKOS_TAG https://github.com/kokkos/kokkos.git kokkos-$KOKKOS_TAG 
+    ```
+
+    **...and finally export the path to the Kokkos folder.**
+    ```shell
+    export KOKKOS_PATH=$PWD/kokkos-$KOKKOS_TAG
+    ```
+
+    ??? tip
+        To avoid having to export this environment variable every time you open a new shell, you might want to add the above line to your `~/.bashrc` file
 
 !!! success "Next"
     Great! We can now turn to executing our first Kokkos program [Tutorial 01: Vector Addition](../vectorAdd/index.md)
