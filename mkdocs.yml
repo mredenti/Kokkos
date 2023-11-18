@@ -2,6 +2,7 @@
 site_name: Heterogeneous Programming With Kokkos
 site_description: Project documentation with Markdown. 
 site_author: Michael Redenti
+site_url: https://gpuComputingSchool/Exercises
 
 repo_url: https://github.com/mredenti/Kokkos
 edit_uri: edit/main/docs/
