@@ -29,10 +29,10 @@ For the tutorial, we will compile our Kokkos programs via a Makefile while **bui
         To avoid having to export this environment variable every time you open a new shell, you might want to add it to your `~/.bashrc` file
 
     ??? info "Installing Kokkos as shared library/package"
-    You may consult the documentation to learn about:    
+        You may consult the documentation to learn about:    
         [Building Kokkos as an intalled package](https://kokkos.github.io/kokkos-core-wiki/building.html)   
         [Building Kokkos via Spack package manager](https://kokkos.github.io/kokkos-core-wiki/building.html#:~:text=a%20single%20process.-,Spack,-%23)
-    but for the tutorial we will compile Kokkos programs inline via a Makefile
+        but for the tutorial we will compile Kokkos programs inline via a Makefile
 
 
 ???+ note "Instructions: Cloning the tutorial/exercises repository"
