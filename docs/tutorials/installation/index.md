@@ -26,7 +26,7 @@ For the tutorial, we will compile our Kokkos programs via a Makefile while **bui
     ```
 
     ??? tip
-        To avoid having to export this environment variable every time you open a new shell, you might want to add the above line to your `~/.bashrc` file
+        To avoid having to export this environment variable every time you open a new shell, you might want to add it to your `~/.bashrc` file
 
     ??? info "Installing Kokkos as shared library/package"
     You may consult the documentation to learn about:    
