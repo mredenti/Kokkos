@@ -2,9 +2,7 @@
 
 # Kokkos 
 
-This repository contains the exercises for the School on GPU computing to be hosted by Cineca on ...data.... 
-
-Following is a list of exercises and their description to workon during the lecture. 
+This repository hosts a collection of Kokkos exercises for the upcoming School on GPU Computing, organized by Cineca.
 
 | Name                                             | Description   | Level |
 |--------------------------------------------------|---------------|-------|
@@ -12,7 +10,7 @@ Following is a list of exercises and their description to workon during the lect
 | [Exercise 0: Vector Addition](./tutorials/vectorAdd/index.md) | Introduction to heterogeneous parallel programming | beginner |
 | [Exercise 1: Matrix-Vector Multiplication](./tutorials/MatMul/index.md)   | Introduction to Kokkos parallel patterns | beginner | 
 | [Exercise 2: Matrix-Matrix Multiplication](./tutorials/MatMul/index.md)   | Introduction to Kokkos parallel patterns | Intermediate | 
-| [Porting Heat Conduction Mini-App to Kokkos](./tutorials/MatMul/index.md)   | Put your Kokkos skills to the test by porting a mini-application simulating heat conduction. Give a description of the mini-app | Advanced | 
+| [Porting Heat Conduction Mini-App to Kokkos](./tutorials/MatMul/index.md)  | Put your Kokkos skills to the test by porting a mini-application simulating heat conduction. Give a description of the mini-app | Advanced | 
 
 ## Authors
 
